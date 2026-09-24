@@ -1,0 +1,8 @@
+# Smart Start is not launched yet. This file deliberately disallows
+# everything while the site is a preview: app/layout.tsx also sets
+# noindex, nofollow site wide, and that is owned separately from this
+# file. Flip the Disallow line below to allow crawling once the site is
+# ready to launch, and add the Sitemap line once a production domain is
+# confirmed.
+User-agent: *
+Disallow: /
